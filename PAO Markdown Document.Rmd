@@ -107,8 +107,7 @@ read_tonnage_data <- function(calendar_year) {
 }
 #Store the result in the 'data' dataset/frame by calling the above function.
 data <- read_tonnage_data(calendar_year)
-install.packages("knitr")
-install.packages("DT")
+
 library(knitr)
 library(DT)
 
